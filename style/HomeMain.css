@@ -1,0 +1,111 @@
+.wrapperSlider {
+    /* word-wrap: break-word; */
+    width: 100%;
+    /* height: 90%; */
+    /* margin-top: 55px!important; */
+    margin-left: 0px;
+    /* margin-top: -70px; */
+    /* margin-left: 20%; */
+    /* padding: 2rem 0; */
+    /* position: relative; */
+    /* top: 0%; */
+    /* left: -1%; */
+    /* z-index: 0; */
+    /* border: 5px solid yellow; */
+}
+
+/* .wrapperSlider, */
+.containerSlider {
+    /* border: 5px solid #CB411F; */
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 3.5%;
+    /* position: absolute; */
+    /* top: -14%; */
+    /* bottom: auto; */
+}
+
+.containerSlider {
+    position: relative;
+    overflow: hidden;
+    border-radius: 4px;
+    max-width: 100%;
+    /* height: 48.3rem; */
+    /* border: 5px solid green; */
+    /* line-height: 0; */
+}
+
+.slideDivSlider,
+.controls {
+    position: absolute;
+}
+
+.slideDivSlider,
+.slideSlider {
+    width: 100%;
+    height: 100%;
+    /* border: 5px solid red; */
+}
+
+/* .slideSlider {
+    background-size: cover;
+}
+
+.slideSlider:first-child {
+    background: url(https://www.dropbox.com/s/0slr95bb92110nh/machu-picchu.jpg?raw=1) no-repeat center;
+}
+
+.slideSlider:nth-of-type(2) {
+    background: url(https://www.dropbox.com/s/rv5xsph8fqouh4g/guitar.jpg?raw=1) no-repeat center;
+}
+
+.slideSlider:nth-of-type(3) {
+    background: url(https://www.dropbox.com/s/xpm4bb42s8m1361/hat.jpg?raw=1) no-repeat center;
+}
+
+.slideSlider:last-child {
+    background: url(https://www.dropbox.com/s/b43v3ahhw01wipx/colored-smoke.jpg?raw=1) no-repeat center;
+} */
+
+.controls {
+    top: 41%;
+    right: 3%;
+    padding: 0 0.63rem;
+    z-index: 5;
+    text-align: center;
+}
+
+.button {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    display: block;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: all ease .2s;
+}
+
+.button:not(:last-child) {
+    margin-bottom: 0.63rem;
+}
+.button {
+    border: 1px solid #fff;
+    opacity: .6;
+    outline: none;
+    background-color: #333;
+}
+
+.button:hover,
+.button:focus {
+    opacity: 1;
+}
+
+.selected {
+    background-color: #CB411F;
+}
+
+#EffectHead {
+    margin: 0%;
+    height: 100%;
+    overflow: hidden;
+    background: #000;
+}

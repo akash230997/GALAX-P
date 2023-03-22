@@ -1,0 +1,23 @@
+.TopMain {
+    /* border: 5px solid blue; */
+    /* width: 100vw; */
+    /* margin-left: 500px; */
+    /* margin: -350px auto 0 auto; */
+    /* text-align: center; */
+    /* margin-top: -350px; */
+    /* font-size: 2rem; */
+    /* overflow-x: hidden; */
+}
+
+.TopMain h1 {
+    text-align: center;
+}
+
+.canvas {
+    width: 50%;
+    height: 50%;
+    /* border: 10px so
+    lid red; */
+    position: absolute;
+    top: 0%;
+}
