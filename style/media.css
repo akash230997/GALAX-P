@@ -638,6 +638,11 @@
     padding: 1% 20px;
     /* border: 1px solid red; */
   }
+  .img-slider .slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .listView {
     /* display: block; */
     /* border: 1px solid red; */
@@ -983,7 +988,8 @@
     min-height: 100px;
   }
 }
-
+/* @media screen and (max-width: 250px) {
+} */
 /* @media screen and (min-width: 300px) and (max-width: 700px) {
   .footerContactUs {
     margin: 0%;
