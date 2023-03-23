@@ -156,7 +156,7 @@
   .deck {
     width: 100%;
     height: 50vh;
-    /* border: 4px solid #fff; */
+    /* border: 1px solid #fff; */
   }
   .headerMobile {
     width: 100%;
@@ -473,7 +473,518 @@
   }
 }
 
-@media screen and (min-width: 300px) and (max-width: 700px) {
+@media screen and (min-width: 600px) and (max-width: 700px) {
+  .footerContactUs {
+    margin: 200px 0px 0px 0px;
+    /* border: 1px solid red; */
+  }
+  .mainContainer {
+    position: absolute;
+    top: 50%;
+  }
+
+  .intro {
+    top: 50px;
+    right: 3.5%;
+    width: 90%;
+    min-height: 100px;
+    text-align: center;
+    font-size: 0.4rem;
+  }
+  .intro p {
+    font-size: 1rem;
+    padding: 0%;
+    margin: 0%;
+  }
+  .TopMobile {
+    top: 200px;
+    /* margin-bottom: 100px; */
+    text-align: start;
+    font-size: 1.5rem;
+    /* border: 1px solid red; */
+  }
+  .TopMobile h1 {
+    margin-left: -240px;
+    /* text-align: left; */
+  }
+  .img-slider {
+    margin-top: -180px;
+    /* border: 5px solid red; */
+    min-height: 100px;
+  }
+  .listView {
+    font-size: 0.8rem;
+    width: 300px;
+    top: 5%;
+    left: 0%;
+    /* display: block; */
+    /* border: 4px solid red; */
+  }
+  .listView h1 {
+    border-bottom: 2px solid gray;
+    color: #362fd9;
+  }
+  .footerContactUs .contactUsSection {
+    /* border: 4px solid red; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    width: 100%;
+    /* justify-content: space-evenly; */
+  }
+  .footerContactUs .contactUsSection .leftcontactUsSection {
+    /* border: 4px solid blue; */
+    padding: 0;
+    width: 100%;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection {
+    padding: 0%;
+    /* border: 4px solid red; */
+    width: 100%;
+  }
+  .footerContactUs
+    .contactUsSection
+    .rightcontactUsSection
+    .getDetails
+    textarea {
+    height: 60px;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  .deck {
+    height: 22vh;
+  }
+  .TopMobile {
+    font-size: 1.5rem;
+    top: 33%;
+  }
+  .intro {
+    top: 23%;
+    right: 8%;
+    width: 80%;
+  }
+  .final {
+    margin: 100px auto;
+  }
+  .footerContactUs {
+    height: auto;
+  }
+  .MobileView {
+    overflow: unset;
+  }
+  .footerContactUs .contactUsSection {
+    flex-direction: column;
+  }
+  .footerContactUs .contactUsSection {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    width: 100%;
+  }
+  .footerContactUs .contactUsSection .leftcontactUsSection {
+    padding: 0%;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection {
+    padding: 0%;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection .getDetails input {
+    width: 98%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  .footerContactUs
+    .contactUsSection
+    .rightcontactUsSection
+    .getDetails
+    textarea {
+    height: 50px;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection button {
+    padding: 10px 10px;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  .deck {
+    height: 11vh;
+  }
+  .TopMobile h1 {
+    font-size: 3rem;
+    /* border: 1px solid #000; */
+  }
+  .TopMobile {
+    top: 250px;
+  }
+  .intro {
+    top: 30%;
+    right: 8%;
+    width: 80%;
+  }
+  .intro h1:nth-child(1) {
+    font-size: 2rem;
+  }
+
+  .intro h1:nth-child(2) {
+    font-size: 1.3rem;
+  }
+  .intro p {
+    font-size: 1rem;
+  }
+  .headerMobile ul li {
+    font-size: 1rem;
+    padding: 1% 20px;
+    /* border: 1px solid red; */
+  }
+  .listView {
+    /* display: block; */
+    /* border: 1px solid red; */
+    font-size: 0.7rem;
+    width: 200px;
+    top: 3%;
+    left: 2%;
+  }
+  .TopMobile h1 {
+    font-size: 2.8rem;
+  }
+  .mainContainer {
+    min-height: 750px;
+    /* border: 1px solid red; */
+  }
+  .footerContactUs {
+    margin: 0%;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection .getDetails {
+    width: 110%;
+  }
+
+  .final {
+    margin: 0px auto;
+  }
+  .footerContactUs {
+    height: auto;
+  }
+  .MobileView {
+    overflow: unset;
+  }
+  .footerContactUs .contactUsSection {
+    flex-direction: column;
+  }
+  .footerContactUs .contactUsSection {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    width: 100%;
+  }
+  .footerContactUs .contactUsSection .leftcontactUsSection {
+    padding: 0%;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection {
+    padding: 0%;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection .getDetails input {
+    width: 98%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  .footerContactUs
+    .contactUsSection
+    .rightcontactUsSection
+    .getDetails
+    textarea {
+    height: 50px;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection button {
+    padding: 10px 10px;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .deck {
+    height: 11vh;
+  }
+  .TopMobile h1 {
+    font-size: 3rem;
+    /* border: 1px solid #000; */
+  }
+  .TopMobile {
+    top: 250px;
+  }
+  .intro {
+    top: 30%;
+    right: 8%;
+    width: 80%;
+  }
+  .intro h1:nth-child(1) {
+    font-size: 2rem;
+  }
+
+  .intro h1:nth-child(2) {
+    font-size: 1.3rem;
+  }
+  .intro p {
+    font-size: 1rem;
+  }
+  .headerMobile ul li {
+    font-size: 1rem;
+    padding: 1% 20px;
+    /* border: 1px solid red; */
+  }
+  .listView {
+    /* display: block; */
+    /* border: 1px solid red; */
+    font-size: 0.6rem;
+    width: 150px;
+    top: 3%;
+    left: 5%;
+    padding: 5px;
+    text-align: justify;
+  }
+  .listView h1 {
+    color: #362fd9;
+    font-size: 0.9rem;
+  }
+  .TopMobile h1 {
+    font-size: 2.8rem;
+  }
+  .mainContainer {
+    min-height: 750px;
+    /* border: 1px solid red; */
+  }
+  .footerContactUs {
+    margin: 0%;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection .getDetails {
+    width: 110%;
+  }
+
+  .final {
+    margin: 0px auto;
+  }
+  .footerContactUs {
+    height: auto;
+  }
+  .MobileView {
+    overflow: unset;
+  }
+  .footerContactUs .contactUsSection {
+    flex-direction: column;
+  }
+  .footerContactUs .contactUsSection {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0%;
+    width: 100%;
+  }
+  .footerContactUs .contactUsSection .leftcontactUsSection {
+    padding: 0%;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection {
+    padding: 0%;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection .getDetails input {
+    width: 98%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  .footerContactUs
+    .contactUsSection
+    .rightcontactUsSection
+    .getDetails
+    textarea {
+    height: 50px;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection button {
+    padding: 10px 10px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 350px) {
+  .deck {
+    height: 7vh;
+  }
+  .headerMobile ul li {
+    font-size: 0.8rem;
+    padding: 0px 10px;
+    /* border: 1px solid red; */
+  }
+  .listView {
+    /* display: block; */
+    /* border: 1px solid red; */
+    font-size: 0.5rem;
+    width: 120px;
+    top: 2%;
+    left: 2%;
+    padding: 0%;
+    text-align: left;
+  }
+  .listView h1 {
+    font-size: 0.8rem;
+  }
+  .TopMobile h1 {
+    font-size: 1.8rem;
+  }
+  .TopMobile {
+    top: 180px;
+  }
+  .intro {
+    top: 20%;
+    right: 8%;
+    width: 75%;
+    /* border: 1px solid blue; */
+    min-height: 200px;
+  }
+  .intro h1:nth-child(1) {
+    font-size: 1rem;
+  }
+
+  .intro h1:nth-child(2) {
+    font-size: 1rem;
+  }
+  .intro p {
+    font-size: 0.6rem;
+  }
+  .mainContainer {
+    /* border: 1px solid red; */
+    min-height: 150px;
+  }
+  .footerContactUs h1 {
+    font-size: 1.5rem;
+  }
+  .footerContactUs .lineHori {
+    width: 100px;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection .getDetails {
+    margin-left: -25px;
+  }
+  .footerContactUs
+    .contactUsSection
+    .rightcontactUsSection
+    .getDetails
+    textarea {
+    width: 88%;
+  }
+  .footerContactUs .contactUsSection .leftcontactUsSection {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 300px) {
+  .deck {
+    height: 4vh;
+  }
+  .headerMobile ul li {
+    font-size: 0.6rem;
+    padding: 0px 10px;
+    /* border: 1px solid red; */
+  }
+  .listView {
+    /* display: block; */
+    /* border: 1px solid red; */
+    font-size: 0.4rem;
+    width: 100px;
+    top: 2%;
+    left: 4%;
+    padding: 2px;
+    min-height: 70px;
+    text-align: center;
+  }
+  .listView h1 {
+    font-size: 0.6rem;
+    color: #362fd9;
+  }
+  .TopMobile h1 {
+    font-size: 1.5rem;
+  }
+  .TopMobile {
+    top: 140px;
+  }
+  .intro {
+    top: 15%;
+    right: 8%;
+    width: 75%;
+    /* border: 1px solid blue; */
+    min-height: 100px;
+  }
+  .intro h1:nth-child(1) {
+    font-size: 1rem;
+  }
+
+  .intro h1:nth-child(2) {
+    font-size: 1rem;
+  }
+  .intro p {
+    font-size: 0.6rem;
+  }
+  .mainContainer {
+    /* border: 1px solid red; */
+    min-height: 100px;
+  }
+  .footerContactUs h1 {
+    font-size: 1rem;
+  }
+  .footerContactUs .lineHori {
+    width: 70px;
+    height: 1px;
+  }
+  .footerContactUs .lineHori {
+    margin: 20px auto;
+  }
+  .footerContactUs {
+    margin: 0% auto 0%;
+  }
+  .footerContactUs .contactUsSection {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+    width: auto;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection .getDetails {
+    width: 110%;
+    /* border: 1px solid red; */
+  }
+  .footerContactUs .contactUsSection .leftcontactUsSection {
+    padding: 0%;
+  }
+  .footerContactUs .contactUsSection .leftcontactUsSection {
+    width: 100%;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection .getDetails {
+    padding: 10px;
+    /* margin-left: -60px; */
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection {
+    justify-content: center;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection .getDetails input {
+    padding: 5px;
+    font-size: 0.8rem;
+  }
+  .footerContactUs
+    .contactUsSection
+    .rightcontactUsSection
+    .getDetails
+    textarea {
+    padding: 5px;
+    font-size: 0.8rem;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection button {
+    padding: 5px 10px;
+  }
+  .footerContactUs {
+    height: auto;
+  }
+  .final {
+    width: auto;
+    min-height: 100px;
+  }
+}
+
+/* @media screen and (min-width: 300px) and (max-width: 700px) {
   .footerContactUs {
     margin: 0%;
     margin-top: 50px;
@@ -486,17 +997,12 @@
     width: 100%;
   }
   .footerContactUs .contactUsSection .leftcontactUsSection {
-    /* border: 1px solid #000; */
     padding: 0%;
   }
   .footerContactUs .contactUsSection .rightcontactUsSection {
-    /* border: 1px solid #000; */
-    /* margin-top: -100px; */
     padding: 0%;
   }
   .footerContactUs .contactUsSection .rightcontactUsSection .getDetails input {
-    /* height: 30p
-      x; */
     width: 98%;
     padding: 10px;
     font-size: 1rem;
@@ -514,11 +1020,9 @@
   .mainContainer {
     border-top: 2px solid gray;
     position: relative;
-    /* top: -80%; */
     margin-top: -280px;
     background-color: #222;
     min-height: 900px;
-    /* overflow: hidden; */
   }
   .intro {
     width: 80%;
@@ -530,11 +1034,8 @@
   }
   .img-slider {
     position: absolute;
-    /* top: 0%; */
-    /* margin-top: -182.5px; */
   }
   .listView {
-    /* display: inline-block; */
     top: 8%;
     left: 1%;
     width: 50%;
@@ -545,27 +1046,34 @@
     border-bottom: 2px solid gray;
     color: #362fd9;
   }
-}
+} */
 
-@media screen and (min-width: 300px) and (max-width: 500px) {
+/* @media screen and (min-width: 300px) and (max-width: 500px) {
   .mainContainer {
-    margin-top: -300px;
     background-color: #222;
     min-height: 900px;
-    overflow: hidden;
   }
+  .mainContainer .img-slider {
+    position: absolute;
+    top: 20%;
+  }
+
+  .deck {
+    text-align: center;
+    margin-top: 100px;
+  }
+
   .TopMobile {
-    top: 350px;
+    margin-top: 20px;
     font-size: 1.5rem;
   }
   .intro {
-    right: auto;
-    left: 5%;
+    width: 300px;
     margin-top: 140px;
+    margin-left: 15px;
   }
 
   .listView {
-    /* display: inline-block; */
     top: 5%;
     left: 1%;
     width: 40%;
@@ -579,8 +1087,8 @@
   .headerMobile ul li {
     font-size: 1rem;
   }
-}
-
+} */
+/* 
 @media screen and (min-width: 300px) and (max-width: 500px) {
   .mainContainer {
     margin-top: -350px;
@@ -598,20 +1106,16 @@
   }
   .intro h1:nth-child(1) {
     font-size: 1.5rem;
-    /* border: 1px solid red; */
   }
   .intro h1:nth-child(2) {
     font-size: 1.4rem;
-    /* border: 1px solid yellowgreen; */
   }
   .intro p {
     font-size: 0.9rem;
     padding: 3px;
-    /* border: 1px solid #006; */
   }
 
   .listView {
-    /* display: inline-block; */
     top: 4%;
     left: 2%;
     width: 50%;
@@ -626,18 +1130,46 @@
   .headerMobile ul li {
     font-size: 0.8rem;
   }
-}
-
+  .footerContactUs .contactUsSection {
+    width: 100%;
+    flex-direction: column;
+    padding: 0%;
+  }
+  form {
+    width: 100%;
+  }
+  .footerContactUs .contactUsSection .leftcontactUsSection {
+    padding: 0%;
+    width: 100%;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection {
+    width: 100%;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection .getDetails input {
+    width: 98%;
+    padding: 10px;
+    font-size: 1rem;
+  }
+  .footerContactUs
+    .contactUsSection
+    .rightcontactUsSection
+    .getDetails
+    textarea {
+    height: 50px;
+  }
+  .footerContactUs .contactUsSection .rightcontactUsSection button {
+    padding: 10px 10px;
+  }
+} */
+/* 
 @media screen and (min-width: 200px) and (max-width: 400px) {
   .mainContainer {
     margin-top: -410px;
     min-height: 620px;
-    /* border: 1px solid #000; */
   }
   .TopMobile {
     top: 200px;
     font-size: 1rem;
-    /* border: 1px solid red; */
   }
   .intro {
     right: auto;
@@ -647,20 +1179,16 @@
   }
   .intro h1:nth-child(1) {
     font-size: 1.5rem;
-    /* border: 1px solid red; */
   }
   .intro h1:nth-child(2) {
     font-size: 1.2rem;
-    /* border: 1px solid yellowgreen; */
   }
   .intro p {
     font-size: 0.8rem;
     padding: 3px;
-    /* border: 1px solid #006; */
   }
 
   .listView {
-    /* display: inline-block; */
     top: 4%;
     left: 4%;
     width: 44%;
@@ -688,7 +1216,6 @@
   }
   .footerContactUs .contactUsSection {
     width: 100%;
-    /* border: 1px solid red; */
     margin-left: -20px;
   }
   form {
@@ -702,8 +1229,6 @@
     width: 100%;
   }
   .footerContactUs .contactUsSection .rightcontactUsSection .getDetails input {
-    /* height: 30p
-      x; */
     width: 98%;
     padding: 10px;
     font-size: 1rem;
@@ -718,10 +1243,10 @@
   .footerContactUs .contactUsSection .rightcontactUsSection button {
     padding: 10px 10px;
   }
-}
+} */
 
 /* IPOHONE SE */
-@media screen and (min-width: 375px) and (max-width: 380px) {
+/* @media screen and (min-width: 375px) and (max-width: 380px) {
   .TopMobile h1 {
     margin: 0%;
   }
@@ -732,10 +1257,10 @@
     left: auto;
     right: 5%;
   }
-}
+} */
 
 /* IPOHONE XR */
-@media screen and (min-width: 414px) and (max-width: 420px) {
+/* @media screen and (min-width: 414px) and (max-width: 420px) {
   .TopMobile h1 {
     margin: 0%;
   }
@@ -744,7 +1269,6 @@
   }
   .intro {
     margin-top: 10%;
-    /* max-height: 320px; */
     left: auto;
     right: 5%;
   }
@@ -754,9 +1278,9 @@
   .footerContactUs .contactUsSection .rightcontactUsSection .getDetails {
     width: 130%;
   }
-}
+} */
 /* IPOHONE 12 */
-@media screen and (min-width: 390px) and (max-width: 400px) {
+/* @media screen and (min-width: 390px) and (max-width: 400px) {
   .TopMobile h1 {
     margin: 0%;
   }
@@ -765,7 +1289,6 @@
   }
   .intro {
     margin-top: 10%;
-    /* max-height: 320px; */
     left: auto;
     right: 5%;
   }
@@ -774,14 +1297,13 @@
   }
   .footerContactUs .contactUsSection .rightcontactUsSection .getDetails {
     width: 90%;
-    /* border: 1px solid red; */
     margin-left: 25px;
   }
-}
+} */
 
 /* GALAXY S8+ */
 
-@media screen and (min-width: 360px) and (max-width: 365px) {
+/* @media screen and (min-width: 360px) and (max-width: 365px) {
   .TopMobile h1 {
     margin: 0%;
   }
@@ -790,7 +1312,6 @@
   }
   .intro {
     margin-top: 10%;
-    /* max-height: 320px; */
     left: auto;
     right: 5%;
   }
@@ -799,14 +1320,13 @@
   }
   .footerContactUs .contactUsSection .rightcontactUsSection .getDetails {
     width: 90%;
-    /* border: 1px solid red; */
     margin-left: 25px;
   }
-}
+} */
 
 /* GALAXY S20 ULTRA */
 
-@media screen and (min-width: 412px) and (max-width: 413px) {
+/* @media screen and (min-width: 412px) and (max-width: 413px) {
   .TopMobile h1 {
     margin: 0%;
   }
@@ -816,7 +1336,6 @@
   }
   .intro {
     margin-top: 10%;
-    /* max-height: 320px; */
     left: auto;
     right: 5%;
   }
@@ -825,12 +1344,11 @@
   }
   .footerContactUs .contactUsSection .rightcontactUsSection .getDetails {
     width: 130%;
-    /* border: 1px solid red; */
     margin-left: -25px;
   }
-}
+} */
 /* iPad Air */
-@media screen and (min-width: 820px) and (max-width: 830px) {
+/* @media screen and (min-width: 820px) and (max-width: 830px) {
   .deck {
     height: 39vh;
   }
@@ -838,20 +1356,19 @@
     margin: 50px auto 0px auto;
     height: auto;
   }
-}
+} */
 /* iPad Mini */
-@media screen and (min-width: 768px) and (max-width: 770px) {
+/* @media screen and (min-width: 768px) and (max-width: 770px) {
   .footerContactUs {
     margin: 113px auto 0px auto;
     height: auto;
   }
-}
+} */
 
 /* Surface Pro 7 */
-@media screen and (min-width: 912px) and (max-width: 915px) {
+/* @media screen and (min-width: 912px) and (max-width: 915px) {
   .deck {
     height: 38vh;
-    /* border: 1px solid red; */
   }
   .footerContactUs {
     margin: 50px auto 0px auto;
@@ -860,10 +1377,10 @@
   .final {
     min-height: auto;
   }
-}
+} */
 
 /* Surface Duo */
-@media screen and (min-width: 540px) and (max-width: 545px) {
+/* @media screen and (min-width: 540px) and (max-width: 545px) {
   .deck {
     height: 68vh;
   }
@@ -873,4 +1390,4 @@
   .intro {
     margin-top: 180px;
   }
-}
+} */
