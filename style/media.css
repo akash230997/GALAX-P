@@ -718,9 +718,17 @@
   .TopMobile {
     top: 250px;
   }
+  .flexMid {
+    display: flex;
+  }
   .intro {
     top: 30%;
-    right: 8%;
+    /* border: 1px solid red; */
+    /* margin: 0% auto; */
+    /* right: 8%; */
+    position: static;
+    margin: 40% auto;
+    z-index: 500;
     width: 80%;
   }
   .intro h1:nth-child(1) {
@@ -756,7 +764,8 @@
     font-size: 2.8rem;
   }
   .mainContainer {
-    min-height: 750px;
+    min-height: 800px;
+    overflow: hidden;
     /* border: 1px solid red; */
   }
   .footerContactUs {
