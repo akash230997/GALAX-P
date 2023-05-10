@@ -4,9 +4,14 @@ const images = gsap.utils.toArray("img");
 
 const loader = document.querySelector(".loader--text");
 const updateProgress = (instance) =>
-  (loader.textContent = `${Math.round(
-    (instance.progressedCount * 100) / images.length
-  )}%`);
+(loader.textContent = `${Math.round(
+  (instance.progressedCount * 100) / images.length
+)}%`);
+// setTimeout(() => {
+//   (loader.textContent = `${Math.round(
+//     (instance.progressedCount * 100) / images.length
+//   )}%`);
+// }, 5000);
 
 const showDemo = () => {
   const LayoutFooter = document.getElementsByClassName("LayoutFooter")[0];
