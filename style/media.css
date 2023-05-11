@@ -1572,6 +1572,9 @@
     width: 100%;
     margin-top: 20px;
   }
+  main .blogs .blog_right .setUp_card .social {
+    font-size: 0.8rem;
+  }
   .headerMobile ul li {
     font-size: 1rem;
   }
@@ -1655,12 +1658,22 @@
     font-size: 1rem;
     margin-top: 40px;
   }
+  .footerContactUs h1 {
+    font-size: 2rem;
+  }
   .flexMid .intro h1,
   h1 {
     margin-top: 0%;
   }
   .flexMid .intro p {
     font-size: 0.5rem;
+  }
+  main .blogs .blog_left {
+    margin-left: -20px;
+  }
+
+  main .blogs .blog_right {
+    margin-left: -20px;
   }
   main .blogs .blog_right .setUp_card .inp_btn input {
     width: 95%;
@@ -1672,6 +1685,9 @@
   .headerMobile ul li {
     font-size: 1rem;
   }
+  main .blogs .blog_right .setUp_card .social {
+    font-size: 0.7rem;
+  }
   .listView h1 {
     color: #362fd9;
   }
@@ -1681,4 +1697,118 @@
     width: 200px;
     font-size: 0.7rem;
   } */
+}
+@media only screen and (max-width: 499px) and (min-width: 400px) {
+  body {
+    background-color: black;
+  }
+  .TopMobile h1 {
+    font-size: 1rem;
+    margin-top: -10px;
+    display: none;
+  }
+  .body_wrapper {
+    margin-top: -530px;
+  }
+  .inner_container {
+    padding: 30px;
+  }
+  main .up .social_icons {
+    font-size: 1.3rem;
+    width: 80%;
+  }
+  main .projects_section {
+    left: -40px;
+    display: grid;
+    margin-top: 0%;
+    margin-left: 2rem !important;
+    grid-template-columns: 1fr;
+    /* flex-wrap: wrap; */
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 10px;
+    /* border: 1px solid red; */
+  }
+  main .projects_section img {
+    width: 300px;
+    height: 300px;
+  }
+  main .projects_section img:hover {
+    width: 300px;
+    height: 300px;
+  }
+  main .up {
+    width: 90%;
+  }
+  main .blogs {
+    flex-direction: column;
+  }
+  main .blogs .blog_left {
+    width: 90%;
+  }
+  main .blogs .blog_right {
+    width: 90%;
+    gap: 20px;
+  }
+  /* -------OLD-------- */
+  .flexMid .intro {
+    background: none;
+    /* border: 1px solid red; */
+    margin: 0%;
+    margin: auto;
+    padding: 2%;
+    min-height: 200px;
+  }
+  .flexMid .intro h1,
+  h1 {
+    background: none;
+    top: -1%;
+    font-size: 1rem;
+    margin-top: 40px;
+  }
+  .footerContactUs h1 {
+    font-size: 2rem;
+  }
+  .flexMid .intro h1,
+  h1 {
+    margin-top: 0%;
+  }
+  .flexMid .intro p {
+    font-size: 0.5rem;
+  }
+  main .blogs .blog_left {
+    margin-left: -20px;
+  }
+
+  main .blogs .blog_right {
+    margin-left: -20px;
+  }
+  main .blogs .blog_right .setUp_card .inp_btn input {
+    width: 95%;
+  }
+  main .blogs .blog_right .setUp_card .inp_btn button {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .headerMobile ul li {
+    font-size: 1rem;
+  }
+  main .blogs .blog_right .setUp_card .social {
+    font-size: 0.7rem;
+  }
+  .listView h1 {
+    color: #362fd9;
+  }
+  /* .listView {
+    top: 30px;
+    left: 10px;
+    width: 200px;
+    font-size: 0.7rem;
+  } */
+}
+
+@media only screen and (max-width: 340px) and (min-width: 200px) {
+  main .blogs .blog_right .setUp_card .social {
+    font-size: 0.6rem;
+  }
 }
